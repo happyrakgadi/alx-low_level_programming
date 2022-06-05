@@ -1,23 +1,35 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
+
+
 /**
  *
- * * main - main block
+ *  * main - prints the alphabet in lowercase, and then in uppercase,
  *
- * * This program prints alphabet in lowcase then in uppercase.
+ *   * followed by a new line
  *
- * *Return: 0
+ *    * Return: Always 0 (Success)
  *
- * */
+ *     */
+
 int main(void)
+
 {
-char ch;
-for (ch = 'a'; ch <= 'z'; ch++)
-putchar(ch);
-ch = 'A';
-for (ch = 'A'; ch <= 'Z'; ch++)
-putchar(ch);
-putchar('\n');
-return (0);
+
+		int ch;
+
+
+
+			for (ch = 'a'; ch <= 'z'; ch++)
+
+						putchar(ch);
+
+				for (ch = 'A'; ch <= 'Z'; ch++)
+
+							putchar(ch);
+
+					putchar('\n');
+
+						return (0);
+
 }
