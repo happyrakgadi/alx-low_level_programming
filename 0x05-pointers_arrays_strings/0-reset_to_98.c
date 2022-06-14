@@ -1,20 +1,12 @@
-#include "main.h"
+/**
+ * resert_to_98 - takes a pointer to an int parameter and updates the value it points to 98
+ *
+ * @n: int parameter
+ *
+ * Return: Nothing
+ */
 
-// Author By Eng Ismail
-//
-// // URL = https://github.com/macaanto14
-//
-//**
-//
-//  
-//
-//   * @n: An integer input pointer
-//
-//    */
-//
-//    void reset_to_98(int *n)
-//
-//    {
-//
-//    	*n = 98;
-//    	}
+void resert_to_98(int *n)
+{
+*n = 98;
+}
