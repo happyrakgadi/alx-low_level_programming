@@ -1,8 +1,5 @@
-#ifndef "list.h"
-#define "list.h"
-
-#include <stdio.h>
-#include <stdlib.h>
+#ifndef LISTS_H
+#define LISTS_H
 #include <string.h>
 
 /**
@@ -12,6 +9,7 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
+ * for ALX project
  */
 typedef struct list_s
 {
